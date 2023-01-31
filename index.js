@@ -1,17 +1,16 @@
-const body = document.querySelector(".body");
-const Btn_Escuro = document.getElementById(".Btn_Escuro");
+//const body = document.getElementById("body");
+//const escuro = document.getElementById("campo")
+//const claro = document.getElementById("Btn_Claro");
+//let  claro = document.getElementById("Btn_Claro")
+//let button = document.querySelector('#button-div');
 
-Btn_Escuro.addEventListener("click", function () {
-    body.style.color = "black"
-})
+//console.log('claro:',button)
+function muda_cor(cor){
+    body.style.backgroundColor = cor
+}
 
-
-
-
-
-
-
-
-
-
+/*button.addEventListener("click",  () => {
+    console.log("ola");
+    //body.style.backgroundColor = "black"
+})*/
 
