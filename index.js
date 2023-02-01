@@ -1,16 +1,19 @@
-//const body = document.getElementById("body");
-//const escuro = document.getElementById("campo")
-//const claro = document.getElementById("Btn_Claro");
-//let  claro = document.getElementById("Btn_Claro")
-//let button = document.querySelector('#button-div');
+let escuro = document.querySelector('#btn_escuro')
+let claro = document.querySelector('#btn_claro')
 
-//console.log('claro:',button)
-function muda_cor(cor){
+let body = document.querySelector('#body')
+
+escuro.addEventListener('click', ()=>{
+    body.style.backgroundColor = "black"
+})
+
+claro.addEventListener('click', ()=>{
+    body.style.backgroundColor = "white"
+})
+
+/*function muda_cor(cor){
     body.style.backgroundColor = cor
-}
+}*/
 
-/*button.addEventListener("click",  () => {
-    console.log("ola");
-    //body.style.backgroundColor = "black"
-})*/
+
 
